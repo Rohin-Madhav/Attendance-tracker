@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './NavBar'
+import Navber from "./Navbar"
 import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
 
 function Layout() {
   return (
     <div>
-        <Navbar/>
+        <Navber/>
         <Outlet/>
         <Footer/>
       
