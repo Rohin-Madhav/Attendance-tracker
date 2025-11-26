@@ -6,7 +6,7 @@ function Navbar() {
     <>
     <nav className='bg-sky-500/50 flex place-content-between p-4 px-8'>
         <div className='text-slate-900 text-lg font-bold'>
-            <h1>Attendance Tracker</h1>
+            <Link to={"/"}>Attendance Tracker</Link>
         </div>
         <div className='flex gap-3.5'>
             <Link className=' hover:text-white gap-2 ' to={"/addStudents"}>
